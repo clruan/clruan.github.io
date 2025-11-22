@@ -79,12 +79,12 @@ body {
 
 /* Hero Combined */
 .hero-combined {
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6rem 2rem 2rem;
+    padding: 6rem 2rem 1rem;
     position: relative;
 }
 
@@ -145,40 +145,7 @@ body {
     align-items: center;
 }
 
-.cta-buttons {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: flex-start;
-    margin-bottom: 2rem;
-}
 
-.btn {
-    padding: 0.8rem 2rem;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    border: 1px solid transparent;
-}
-
-.btn.primary {
-    background-color: transparent;
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-}
-
-.btn.primary:hover {
-    background-color: rgba(100, 255, 218, 0.1);
-}
-
-.btn.secondary {
-    background-color: var(--card-bg);
-    color: var(--text-color);
-}
-
-.btn.secondary:hover {
-    background-color: var(--card-hover);
-}
 
 .social-links {
     display: flex;
@@ -256,7 +223,7 @@ body {
 
 /* Sections */
 .section {
-    padding: 6rem 0;
+    padding: 3rem 0;
 }
 
 .container {
